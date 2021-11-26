@@ -4,8 +4,8 @@
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 1. Correct the line height in all browsers. (Corrija a altura da linha em todos os navegadores.)
+ * 2. Prevent adjustments of font size after orientation changes in iOS. (Evite ajustes de tamanho da fonte após mudanças de orientação no iOS. )
  */
 
  html {
@@ -13,11 +13,11 @@
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
-  /* Sections
+  /* Sections (Seções)
      ========================================================================== */
   
   /**
-   * Remove the margin in all browsers.
+   * Remove the margin in all browsers. (Remova a margem em todos os navegadores. )
    */
   
   body {
@@ -25,7 +25,7 @@
   }
   
   /**
-   * Render the `main` element consistently in IE.
+   * Render the `main` element consistently in IE. (Renderize o elemento `main` de forma consistente no IE. )
    */
   
   main {
@@ -33,8 +33,8 @@
   }
   
   /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
+   * Correct the font size and margin on `h1` elements within `section` and (Corrija o tamanho da fonte e a margem nos elementos `h1` dentro da` seção` e)
+   * `article` contexts in Chrome, Firefox, and Safari. (Contextos do `artigo` no Chrome, Firefox e Safari.)
    */
   
   h1 {
@@ -42,12 +42,12 @@
     margin: 0.67em 0;
   }
   
-  /* Grouping content
+  /* Grouping content (Conteúdo de agrupamento)
      ========================================================================== */
   
   /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
+   * 1. Add the correct box sizing in Firefox. (Adicione o tamanho correto da caixa no Firefox.)
+   * 2. Show the overflow in Edge and IE. (Mostre o estouro no Edge e no IE. )
    */
   
   hr {
@@ -57,8 +57,8 @@
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
+   * 1. Correct the inheritance and scaling of font size in all browsers. (Corrija a herança e o dimensionamento do tamanho da fonte em todos os navegadores.)
+   * 2. Correct the odd `em` font sizing in all browsers. (Corrija o tamanho estranho da fonte `em` em todos os navegadores. )
    */
   
   pre {
@@ -66,11 +66,11 @@
     font-size: 1em; /* 2 */
   }
   
-  /* Text-level semantics
+  /* Text-level semantics  (Semântica em nível de texto)
      ========================================================================== */
   
   /**
-   * Remove the gray background on active links in IE 10.
+   * Remove the gray background on active links in IE 10. (Remova o fundo cinza em links ativos no IE 10. )
    */
   
   a {
@@ -78,8 +78,8 @@
   }
   
   /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   * 1. Remove the bottom border in Chrome 57- (Remova a borda inferior no Chrome 57-)
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. (Adicione a decoração de texto correta no Chrome, Edge, IE, Opera e Safari. )
    */
   
   abbr[title] {
@@ -89,7 +89,7 @@
   }
   
   /**
-   * Add the correct font weight in Chrome, Edge, and Safari.
+   * Add the correct font weight in Chrome, Edge, and Safari. (Adicione a espessura de fonte correta no Chrome, Edge e Safari. )
    */
   
   b,
@@ -98,8 +98,8 @@
   }
   
   /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
+   * 1. Correct the inheritance and scaling of font size in all browsers. (Corrija a herança e o dimensionamento do tamanho da fonte em todos os navegadores.)
+   * 2. Correct the odd `em` font sizing in all browsers. (Corrija o tamanho estranho da fonte `em` em todos os navegadores. )
    */
   
   code,

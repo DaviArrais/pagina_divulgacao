@@ -1,22 +1,26 @@
+/*definição de visual (CSS GRID LEYAUT) da seção contida no corpo e no menu do html*/
 .destaque{
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
-    height: calc(100vh - 50px);
+    display: grid; /*declaração do display GRID*/
+    grid-gap: .2rem; /*Dando espaçamentos entre os elementos*/
+    grid-template-columns: 25% 25% 25% 25%; /*define dimensionamento da faixa e das colunas de grade*/
+    grid-template-rows: 33.33% 33.33% 33.33%; /*define dimensionamento da faixa e das linhas de grade*/
+    height: calc(100vh - 50px); /*definição da altura das linhas de grade*/
 }
+/*definição de visual do elemento de cada DIV, contida na seção e no corpo e no menu do html*/
 .toalha{
-    background: url(/img/toalha.png) center / cover no-repeat;
-    grid-column: 1 / 4;
-    grid-row: 1 / 3;
+    background: url(/img/toalha.png) center / cover no-repeat; /*incluíndo imagem como plano de fundo*/
+    grid-column: 1 / 4; /*Posicionamento colulna*/
+    grid-row: 1 / 3; /*Posicionamento linha*/
 }
+/*definição de visual do elemento de cada DIV, contida na seção e no corpo e no menu do html*/
 .bolsa{
-    background: url(/img/bolsa.png) center / cover no-repeat;
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
+    background: url(/img/bolsa.png) center / cover no-repeat; /*incluíndo imagem como plano de fundo*/
+    grid-column: 2 / 4; /*Posicionamento colulna*/
+    grid-row: 1 / 3; /*Posicionamento linha*/
 }
+/*definição de visual do elemento de cada DIV, contida na seção e no corpo e no menu do html*/
 .estojo{
-    background: url(/img/estojo.png) center / cover no-repeat;
-    grid-column: 3 / 4;
-    grid-row: 1 / 3;
+    background: url(/img/estojo.png) center / cover no-repeat; /*incluíndo imagem como plano de fundo*/
+    grid-column: 3 / 4; /*Posicionamento colulna*/
+    grid-row: 1 / 3; /*Posicionamento linha*/
 }
